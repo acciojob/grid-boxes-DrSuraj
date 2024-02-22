@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.grid-container > div {
+  background-color: #2196F3;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
